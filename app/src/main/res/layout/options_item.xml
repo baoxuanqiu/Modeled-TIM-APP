@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_1">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="17"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/header_image"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:src="@drawable/user_head"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/account_id_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="66"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="默认账号"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="17"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/delete_image"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:src="@drawable/delete"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

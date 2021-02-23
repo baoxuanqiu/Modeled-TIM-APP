@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6.8"
+        android:scaleType="fitXY"
+        android:src="@drawable/top"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/welcome"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:textSize="37sp"
+                android:text="欢 迎 来 到 TIM"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="53dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="在    线    协    作    ·    永    久    免    费"
+                android:textColor="#AEA8A8"
+                android:layout_gravity="center"
+                android:gravity="center" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/qq_login"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shape"
+                android:paddingLeft="50dp"
+                android:drawableLeft="@drawable/qq_logo"
+                android:text="QQ登录"
+                android:textSize="24sp"
+                android:textColor="#FAFAFA"
+                android:paddingRight="50dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

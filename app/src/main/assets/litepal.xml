@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="UserAccount"></dbname>
+
+    <version value="7"></version>
+
+    <list>
+        <mapping class="com.example.curriculum_design.Account"></mapping>
+        <mapping class="com.example.curriculum_design.LoginData"></mapping>
+        <mapping class="com.example.curriculum_design.CallLog"></mapping>
+        <mapping class="com.example.curriculum_design.Contact"></mapping>
+        <mapping class="com.example.curriculum_design.ChatListItem"></mapping>
+    </list>
+</litepal>
