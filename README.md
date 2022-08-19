@@ -1,5 +1,5 @@
 # Modeled-TIM-APP
-## Android studio仿AIM实现
+## Android studio仿TIM实现
 ####    注册功能
 ![注册功能](2021-02-23-18-59-51.png)
 ![注册功能](2021-02-23-19-00-16.png)
